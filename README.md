@@ -37,3 +37,9 @@ git push --force-with-lease origin main
 
 uni al final
 git merge rama-schema
+
+crear tags
+
+git tag super-realease
+git tag -d
+git tag -a v1.0.0 -m "Version 1.0.0 lista"
