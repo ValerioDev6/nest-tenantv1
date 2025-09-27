@@ -33,3 +33,7 @@ Consultar rama principal, crear ramas y movernos:
 git branch
 git branch rama-schema
 git checkout rama-schema
+git push --force-with-lease origin main
+
+uni al final
+git merge rama-schema
