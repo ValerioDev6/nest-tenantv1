@@ -8,6 +8,7 @@ import { TenantMiddleware } from './tenants/tenants.middleware';
 import { TenantsModule } from './tenants/tenants.module';
 import { UsersModule } from './users/users.module';
 // import { TenantMiddleware } from './tenants/tenants.middleware';
+import { ReportsModule } from './reports/reports.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { UsersModule } from './users/users.module';
     ProjectsModule,
     TasksModule,
     PrismaModule,
+    ReportsModule,
   ],
   controllers: [],
   providers: [PrismaService],
